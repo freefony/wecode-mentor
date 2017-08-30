@@ -12,21 +12,21 @@
       line-height: 1.1;
       color: inherit;
     }
-    .form-signin {
+    .forms {
       max-width: 380px;
       padding: 15px 35px 45px;
       margin: 0 auto;
       background-color: #fff;
       border: 1px solid rgba(0, 0, 0, 0.1);
     }
-    .form-signin .form-signin-heading,
-    .form-signin .checkbox {
+    .forms .forms-heading,
+    .forms .checkbox {
       margin-bottom: 30px;
     }
-    .form-signin .checkbox {
+    .forms .checkbox {
       font-weight: normal;
     }
-    .form-signin .form-control {
+    .forms .form-control {
       width: 100%;
       position: relative;
       font-size: 16px;
@@ -36,21 +36,24 @@
       -moz-box-sizing: border-box;
       box-sizing: border-box;
     }
-    .form-signin .form-control:focus {
+    .forms .form-control:focus {
       z-index: 2;
     }
-    .form-signin input[type="text"] {
+    .forms input[type="text"] {
       margin-bottom: -1px;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
     }
-    .form-signin input[type="password"] {
-      margin-bottom: 20px;
+    .forms input[type="password"] {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
     }
 
-    .login-btn{display:block;
+    .remember{
+      margin-top:20px; 
+    }
+
+    .submit-btn{display:block;
       width:100%;
       font-weight:400;
       margin-top: 30px;
@@ -70,6 +73,6 @@
       border-radius:.3rem;
       transition:all .15s ease-in-out}
             
-    .login-btn:hover{color:#fff;
+    .submit-btn:hover{color:#fff;
         background-color:#0069d9;
         border-color:#0061CC}
