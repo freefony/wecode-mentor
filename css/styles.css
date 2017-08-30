@@ -91,3 +91,11 @@ a.is-muted:hover {
     float: right;
 }
 .is-left {float: left;}
+.footer{
+    position: fixed;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
