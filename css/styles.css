@@ -1,4 +1,19 @@
+.files{
+    float: right;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
 .is-centered {
+    margin-top: 200px;
     margin: auto;
     width: 100%;
     padding-top: 20px;
@@ -76,3 +91,11 @@ a.is-muted:hover {
     float: right;
 }
 .is-left {float: left;}
+.footer{
+    position: fixed;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}

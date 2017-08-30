@@ -6,8 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sign Up</title>
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <style>
+        .files{
+    float: right;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+    </style>
 </head>
 <body style="background-color:#355E87;">
+    <div class="head">
+        <a href="index.html"><img src="image.jpeg" width="50px" height="50px"></a>
+        <ul class="files">
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>
+    </div>
+    
     <div class="is-centered">
         <div class="is-form">
             <label for="title"><h2>Join the Wecode Community <small>( You have made the right choice )</small></h2> </label>
@@ -32,12 +55,17 @@
                 <button type="submit" class="is-primary"> REGISTER </button>
                 <hr class="rule">
                 <div>
-                    <a href="/login.html" class="is-right is-muted">Already have an account?</a> 
-                    <a href="/index.html" class="is-left is-muted">Back</a> 
+                    <a href="login.html" class="is-right is-muted">Already have an account?</a> 
+                    <a href="index.html" class="is-left is-muted">Back</a> 
                 </div>
             </form>           
         </div> <!-- end of is-form div -->
     </div> <!-- end of is-centerd div-->
-    
+    <div class="footer">
+        <hr>
+        <footer>
+            <p>Developed for Wecode By Mentees &copy; 2017 </p>
+        </footer>
+    </div>
 </body>
 </html>
