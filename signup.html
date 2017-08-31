@@ -1,43 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="css/forms.css">
 </head>
-<body style="background-color:#355E87;">
-    <div class="is-centered">
-        <div class="is-form">
-            <label for="title"><h2>Join the Wecode Community <small>( You have made the right choice )</small></h2> </label>
-            <hr class="rule">
-            <form action="#" method="post" role="form">
-                <div class="is-form-control p-t">
-                    <label for="username" class="is-label">Username:</label>
-                    <input type="text" name="userName" class="is-input" required>
-                </div>
-                <div class="is-form-control">
-                    <label for="email" class="is-label">E-mail:</label>
-                    <input type="email" name="email" class="is-input" required>
-                </div>
-                <div class="is-form-control">
-                    <label for="password" class="is-label">Password:</label>
-                    <input type="password" name="password" class="is-input" required>
-                </div>
-                <div class="is-form-control">
-                    <label for="confirm_password" class="is-label">Confirm Password:</label>
-                    <input type="password" name="confirm_password" class="is-input" required>
-                </div>
-                <button type="submit" class="is-primary"> REGISTER </button>
-                <hr class="rule">
-                <div>
-                    <a href="/login.html" class="is-right is-muted">Already have an account?</a> 
-                    <a href="/index.html" class="is-left is-muted">Back</a> 
-                </div>
-            </form>           
-        </div> <!-- end of is-form div -->
-    </div> <!-- end of is-centerd div-->
-    
+
+<body>
+    <div class="wrapper">
+    <form class="forms" action="#" method="post">       
+      <h2 class="forms-heading">Join the wecode community</h2>
+      <input type="email" class="form-control" name="email" placeholder="Email Address" required="" autofocus="" />
+      <input type="text" class="form-control" name="username" placeholder="User Name" required=""/> 
+      <input type="password" class="form-control" name="password" placeholder="Password" required="" />
+      <input type="password" class="form-control" name="password" placeholder="Confirm Password" required=""/>     
+      
+      <button class="submit-btn" type="submit">REGISTER</button>   
+    </form>
+  </div>
+  
+  
 </body>
 </html>
