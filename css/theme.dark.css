@@ -5,10 +5,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff
 }
-a img{
-	height: 10px;
-	width:10px;
+
+hr {
+    border-bottom-color: #fff
 }
+
 .head{
 	text-align: center;
 	margin-top:100px;
