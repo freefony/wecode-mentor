@@ -3,7 +3,17 @@
   font-style: italic
 }
 
+.banner{
+	text-align: center;
+  margin-top:80px;
+  margin-bottom: 80px
+}
+
+
 /* elements */
+body {
+  margin: 0
+}
 
 button {
   font-weight:400;
@@ -40,6 +50,28 @@ hr {
 .center {
   align-items: center;
   text-align: center
+}
+
+.right {
+  align-items: right;
+  text-align: right
+}
+
+.left {
+  align-items: left;
+  text-align: left
+}
+
+.btngroup {
+  display: block;
+  margin: auto;
+  margin: 10px;
+  padding: 10px
+}
+
+.btngroup a, .btngroup button {
+  margin: 5px;
+  padding: 5px
 }
 
 /* Color Modifiers */
