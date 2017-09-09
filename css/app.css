@@ -40,8 +40,13 @@ button.secondary {
 
 button.secondary:hover {
   color: #fff;
-  background-color: #00ACC1;
-  border-color: #00ACC1
+  background-color: #02D0B4;
+  border-color: #02D0B4
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px
 }
 
 /* layouts */
