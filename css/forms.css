@@ -53,17 +53,6 @@ h2{
   margin-top:20px; 
 }
 
-button.primary{
-  background-color:#007bff;
-  border-color:#007bff;
-}
-            
-button.primary:hover{
-  color:#fff;
-  background-color:#0069d9;
-  border-color:#0061CC
-}
-
 /* CheckBox */
 input[type=checkbox] + label {
   display: block;
