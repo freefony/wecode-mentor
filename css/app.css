@@ -46,6 +46,10 @@ hr {
   border-bottom-style: solid
 }
 
+a, button {
+  cursor: pointer;
+}
+
 /* layouts */
 .center {
   align-items: center;
