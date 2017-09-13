@@ -17,17 +17,17 @@ window.addEventListener('load', function() {
         // },
     
         // Add the name field to the signup page
-        additionalSignUpFields: [{
-          name: "name",
-          placeholder: "enter your name",
-          //icon: "images/wecode-logo.jpeg",
-          validator: function(name) {
-            return {
-                valid: name.length >= 3,
-                hint: "Must have atleast 3 chars" // optional
-            };
-          }
-        }]
+        // additionalSignUpFields: [{
+        //   name: "name",
+        //   placeholder: "your name",
+        //   icon: "images/wecode-logo.jpeg",
+        //   validator: function(name) {
+        //     return {
+        //         valid: name.length >= 3,
+        //         hint: "Must have atleast 3 chars" // optional
+        //     };
+        //   }
+        // }]
     
       };
     
@@ -57,7 +57,7 @@ window.addEventListener('load', function() {
     
       // buttons and event listeners
       var loginBtn = document.getElementById('login');
-      var signupBtn = document.getElementsByClassName('signup');
+      var signupBtn = document.getElementById('signup');
     
       loginBtn.addEventListener('click', login);
       signupBtn.addEventListener('click', signup);
