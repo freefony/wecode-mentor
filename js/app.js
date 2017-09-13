@@ -56,8 +56,8 @@ window.addEventListener('load', function() {
       });
     
       // buttons and event listeners
-      var loginBtn = document.getElementById('btn-login');
-      var signupBtn = document.getElementById('btn-signup');
+      var loginBtn = document.getElementById('login');
+      var signupBtn = document.getElementsByClassName('signup');
     
       loginBtn.addEventListener('click', login);
       signupBtn.addEventListener('click', signup);
