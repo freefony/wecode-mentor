@@ -4,6 +4,7 @@
   "description": "Mentorship platform",
   "main": "./js/app.js",
   "scripts": {
+    "serve": "live-server",
     "test": "exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/freefony/wecode-mentor/issues"
   },
-  "homepage": "https://github.com/freefony/wecode-mentor#readme"
+  "homepage": "https://github.com/freefony/wecode-mentor#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
 }
