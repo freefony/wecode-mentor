@@ -1,13 +1,67 @@
 @import 'app.css';
 
-body {
+
+
+/*body {
     background-color: lightgray !important;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #999;
+}*/
+/*desc-stack */
+.desc-stack a{
+    text-decoration:none;
+}
+
+.desc-stack h2{
+        text-align: center;
+} 
+.mentee{
+    padding:2px;
+    box-shadow: 5px 5px grey;
+    background-color: #00bfa5;
+    float: left; 
+    width: 30%; 
+    margin-left: 30px;
+}
+.mentee p{
+    padding-left: 5px;
+}
+.mentor{
+    box-shadow: 5px 5px grey;
+    background-color:#00bfa5;
+    padding: 2px;
+    display: inline-block;
+    width: 30%; 
+    margin-left: 30px;
+}
+.mentor p{
+    padding-left:5px;
+}
+.sponsor{
+    box-shadow: 5px 5px grey;
+    background-color: #00bfa5;
+    padding: 2px;
+    float: right;
+    width: 30%; 
+    margin-right: 30px;
+}
+/*sponsor-stack*/
+.sponsorStack {
+    margin-top: 150px;
+    margin-bottom: 60x;
+    text-align: center;
+}
+.sponsors a img{
+    
+    margin-left: 20px;
+    
+
+
 }
 
 hr {
     border-bottom-color: #999
+
 }
 
 /* Links */

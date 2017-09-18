@@ -12,13 +12,18 @@ a {
 
 hr {
     border-bottom-color: #fff
+    
 }
 
 .footer{
 	position: fixed;
 }
+footer{
+	margin-top: 100p
+}
 footer p{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+   
 }
