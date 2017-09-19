@@ -1,0 +1,25 @@
+{
+  "name": "wecode-mentor",
+  "version": "1.0.0-alpha1",
+  "description": "Mentorship platform",
+  "main": "./js/app.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freefony/wecode-mentor.git"
+  },
+  "keywords": [
+    "mentorship",
+    "code"
+  ],
+  "author(s)": "Abdullahi Aliyu, Awulonu Obinna, Femi Oni, Hamida, Obinna Akunne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freefony/wecode-mentor/issues"
+  },
+  "homepage": "https://github.com/freefony/wecode-mentor#readme",
+  "dependencies": {}
+}
