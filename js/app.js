@@ -91,7 +91,7 @@ window.addEventListener('load', function() {
             signUp: 'Thanks for joining the wecode community'
             }
         }
-    ) 
+    ); 
     }
     
     function setSession(authResult) {
