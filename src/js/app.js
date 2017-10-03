@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+/*
     
       // Design the auth theme
       var options = {
@@ -109,4 +109,5 @@ window.addEventListener('load', function() {
     }
 
     
-});
+});*/
+
