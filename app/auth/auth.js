@@ -28,10 +28,10 @@ const auth = (function () {
         console.error('Error: Authentication failed with the following error'+ err)
         return
       }
-      
+      console.log(profile)
       localStorage.setItem('accessToken', authResult.accessToken)
       localStorage.setItem('profile', JSON.stringify(profile))
-      location.replace(root + '/home.html')
+      location.replace(root + '/app/home')
     })
   })
 
