@@ -39,8 +39,13 @@ const auth = (function () {
     lock.show()
   }
 
+  const logout = function () {
+    location.replace('https://freefony.auth0.com/v2/logout?returnTo=' + root)
+  }
+
   return {
-    showAuthPop
+    showAuthPop,
+    logout
   }
   
 })()
