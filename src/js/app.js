@@ -32,15 +32,11 @@ window.addEventListener('load', function() {
       };
     
       // Initialize Lock
-      var lock = new Auth0Lock('6JoB5KuW4ExtfGvaTc37HFDm3WGDvVpq','freefony.auth0.com', options, {
-        
+      var lock = new Auth0Lock('6JoB5KuW4ExtfGvaTc37HFDm3WGDvVpq','freefony.auth0.com', {
         auth: {
-          redirectUrl: location.href,
-          responseType: 'token id_token',
-          audience: 'https://freefony.auth0.com/userinfo',
-          params: {
-            scope: 'openid'
-          }
+          redirect: true,
+          redirectUrl: location.href + 'login.html',
+          responseType: 'token id_token'
         }
       });
     
@@ -52,7 +48,7 @@ window.addEventListener('load', function() {
       });
     
       lock.on('authorization_error', function(err) {
-        console.log(err);
+        console.error(err);
         alert('Error: ' + err.error + '. Check the console for further details.');
       });
     
