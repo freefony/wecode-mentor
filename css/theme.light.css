@@ -7,6 +7,13 @@
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #999;
 }*/
+
+.desc-stack {
+    display: flex;
+    margin: 0 20px;
+    flex-wrap: wrap;
+}
+
 /*desc-stack */
 .desc-stack a{
     text-decoration:none;
@@ -15,47 +22,80 @@
 .desc-stack h2{
         text-align: center;
 } 
-.mentee{
-    padding:2px;
+
+.mentee,
+.mentor,
+.sponsor {
     box-shadow: 5px 5px 5px grey;
     background-color: #00bfa5;
-    float: left; 
-    width: 30%; 
-    margin-left: 30px;
-}
-.mentee p{
-    padding-left: 5px;
-}
-.mentor{
-    box-shadow: 5px 5px 5px grey;
-    background-color:#00bfa5;
-    padding: 2px;
-    display: inline-block;
-    width: 30%; 
-    margin-left: 30px;
-}
-.mentor p{
-    padding-left:5px;
-}
-.sponsor{
-    box-shadow: 5px 5px 5px grey;
-    background-color: #00bfa5;
-    padding: 2px;
-    float: right;
-    width: 30%; 
-    margin-right: 30px;
-}
+    justify-content: center;
+    align-items: center;
+} 
+
 /*sponsor-stack*/
 .sponsorStack {
     margin-top: 150px;
     margin-bottom: 60x;
     text-align: center;
 }
-.sponsors a img{
-    
+.sponsors a imgx{
     margin-left: 20px;
-    
+}
 
+.mentor {
+    margin: 20px 0;
+}
+
+/* Using mobile first approach */
+.mentee p,
+.mentor p,
+.sponsor p {
+    padding: 0 20px;
+}
+
+/* Tablet styles */
+@media (min-width: 401px) and (max-width: 960px) {
+    .mentee {
+        order: 2;
+        width: 100%;
+        margin: 0 10px;
+    
+    }
+    
+    .mentor {
+        order: 1;
+        width: 100%;
+        margin: 10px 10px;
+    }
+    
+    .sponsor {
+        width: 100%;
+        margin: 0 10px;
+    }
+}
+    
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+    .mentee {
+        justify-content: flex-start; 
+        order: 1;
+        width: 30%; 
+        margin-left: 20px;
+    }
+    .mentor {
+        order: 2;
+        width: 30%; 
+        margin-left: 20px;
+        display: inline-block;
+    }
+
+    .sponsor {
+        order: 3;
+        width: 30%; 
+        margin-left: 20px;
+        justify-content: flex-end;
+    }
 
 }
 
