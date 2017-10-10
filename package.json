@@ -4,7 +4,7 @@
   "description": "Mentorship platform",
   "main": "./js/app.js",
   "scripts": {
-    "start": "live-server",
+    "start": "live-server --host=localhost --port=34282",
     "test": "exit 1"
   },
   "repository": {
