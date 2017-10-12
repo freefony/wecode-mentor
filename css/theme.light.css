@@ -10,35 +10,63 @@
 
 .desc-stack {
     display: flex;
-    margin: 0 20px;
     flex-wrap: wrap;
+    background: #eee;
 }
 
 /*desc-stack */
 .desc-stack a{
+    
+    display: flex;    
+    align-items: center;
+    justify-content: center;
     text-decoration:none;
+    
 }
 
-.desc-stack h2{
+.desc-stack-links {
+    font-weight:400;
+    text-align:center;
+    white-space:nowrap;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    border:1px solid transparent;
+    color:#fff;
+    padding:.5rem 1rem;
+    margin: 0 100px;
+    font-size:1.25rem;
+    line-height:1.5;
+    border-radius:.3rem;
+    transition:all .15s ease-in-out;
+}
+
+
+.desc-stack h2 a{
         text-align: center;
+        color: #999;
 } 
 
 .mentee,
 .mentor,
 .sponsor {
-    box-shadow: 5px 5px 5px grey;
-    background-color: #00bfa5;
+    /* box-shadow: 5px 5px 5px grey;
+    background-color: #00bfa5; */
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
+    padding-top: 0px;
 } 
 
 /*sponsor-stack*/
 .sponsorStack {
-    margin-top: 150px;
-    margin-bottom: 60x;
+    background: #fff;
+    margin-top: 0px;
     text-align: center;
+    color: black;
 }
-.sponsors a imgx{
+.sponsors a {
     margin-left: 20px;
 }
 
@@ -51,6 +79,7 @@
 .mentor p,
 .sponsor p {
     padding: 0 20px;
+    color: #999;
 }
 
 /* Tablet styles */
@@ -65,7 +94,7 @@
     .mentor {
         order: 1;
         width: 100%;
-        margin: 10px 10px;
+        margin: 0px 10px;
     }
     
     .sponsor {
@@ -99,10 +128,6 @@
 
 }
 
-hr {
-    border-bottom-color: #999
-
-}
 
 /* Links */
 .is-link {

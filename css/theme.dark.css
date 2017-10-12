@@ -1,9 +1,9 @@
 @import 'app.css';
 
 body{
-    background: #345;
+    background: white;
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff
+    color: #fff;
 }
 
 a {
@@ -15,15 +15,14 @@ hr {
     
 }
 
-.footer{
-	position: fixed;
-}
 footer{
-	margin-top: 100p
+    width: 100%;
+    paddin-bottom: 0px;
 }
+
 footer p{
-    text-align: center;
+    text-align: left;
     font-weight: bold;
-    font-size: 20px;
-   
+    font-size: 12px;
+    padding-left: 15px;
 }

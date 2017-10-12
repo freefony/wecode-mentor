@@ -1,12 +1,29 @@
 .tm {
   font-size: 12px;
-  font-style: italic
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.title {
+  padding-top: 20px;
+  font-size: 16px; 
+}
+
+.footer-stack {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#334455+0,606b9b+99 */
+  background: #334455; /* Old browsers */
+  background: -moz-linear-gradient(top, #334455 0%, #606b9b 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #334455 0%,#606b9b 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #334455 0%,#606b9b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#334455', endColorstr='#606b9b',GradientType=0 ); /* IE6-9 */
+
 }
 
 .banner{
-	text-align: center;
-  margin-top:80px;
-  margin-bottom: 80px
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 80px;
 }
 
 
@@ -70,7 +87,7 @@ a, button {
   display: block;
   margin: auto;
   margin: 10px;
-  padding: 10px
+  padding: 10px;
 }
 
 .btngroup a, .btngroup button {
