@@ -7,62 +7,127 @@
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #999;
 }*/
+
+.desc-stack {
+    display: flex;
+    flex-wrap: wrap;
+    background: #eee;
+}
+
 /*desc-stack */
 .desc-stack a{
+    
+    display: flex;    
+    align-items: center;
+    justify-content: center;
     text-decoration:none;
+    
 }
 
-.desc-stack h2{
+.desc-stack-links {
+    font-weight:400;
+    text-align:center;
+    white-space:nowrap;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    border:1px solid transparent;
+    color:#fff;
+    padding:.5rem 1rem;
+    margin: 0 100px;
+    font-size:1.25rem;
+    line-height:1.5;
+    border-radius:.3rem;
+    transition:all .15s ease-in-out;
+}
+
+
+.desc-stack h2 a{
         text-align: center;
+        color: #999;
 } 
-.mentee{
-    padding:2px;
-    box-shadow: 5px 5px 5px grey;
-    background-color: #00bfa5;
-    float: left; 
-    width: 30%; 
-    margin-left: 30px;
-}
-.mentee p{
-    padding-left: 5px;
-}
-.mentor{
-    box-shadow: 5px 5px 5px grey;
-    background-color:#00bfa5;
-    padding: 2px;
-    display: inline-block;
-    width: 30%; 
-    margin-left: 30px;
-}
-.mentor p{
-    padding-left:5px;
-}
-.sponsor{
-    box-shadow: 5px 5px 5px grey;
-    background-color: #00bfa5;
-    padding: 2px;
-    float: right;
-    width: 30%; 
-    margin-right: 30px;
-}
+
+.mentee,
+.mentor,
+.sponsor {
+    /* box-shadow: 5px 5px 5px grey;
+    background-color: #00bfa5; */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 0px;
+} 
+
 /*sponsor-stack*/
 .sponsorStack {
-    margin-top: 150px;
-    margin-bottom: 60x;
+    background: #fff;
+    margin-top: 0px;
     text-align: center;
+    color: black;
 }
-.sponsors a img{
-    
+.sponsors a {
     margin-left: 20px;
+}
+
+.mentor {
+    margin: 20px 0;
+}
+
+/* Using mobile first approach */
+.mentee p,
+.mentor p,
+.sponsor p {
+    padding: 0 20px;
+    color: #999;
+}
+
+/* Tablet styles */
+@media (min-width: 401px) and (max-width: 960px) {
+    .mentee {
+        order: 2;
+        width: 100%;
+        margin: 0 10px;
     
+    }
+    
+    .mentor {
+        order: 1;
+        width: 100%;
+        margin: 0px 10px;
+    }
+    
+    .sponsor {
+        width: 100%;
+        margin: 0 10px;
+    }
+}
+    
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
 
+    .mentee {
+        justify-content: flex-start; 
+        order: 1;
+        width: 30%; 
+        margin-left: 20px;
+    }
+    .mentor {
+        order: 2;
+        width: 30%; 
+        margin-left: 20px;
+        display: inline-block;
+    }
+
+    .sponsor {
+        order: 3;
+        width: 30%; 
+        margin-left: 20px;
+        justify-content: flex-end;
+    }
 
 }
 
-hr {
-    border-bottom-color: #999
-
-}
 
 /* Links */
 .is-link {
